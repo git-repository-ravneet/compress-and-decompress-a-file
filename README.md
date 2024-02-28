@@ -22,16 +22,16 @@ Generates Huffman codes for each character in the input file using a recursive a
 Huffman codes are stored in the c_code array.
 
 **Compression:**
-Reads the input file, replaces characters with their Huffman codes, and writes the compressed data to an intermediate file (text2.txt).
+Reads the input file (text1.txt), replaces characters with their Huffman codes, and writes the compressed data to an intermediate file (text2.txt).
 
 **Decompression:**
 Reads the compressed data, traverses the Huffman tree, and writes the decompressed data to an output file (text3.txt).
 
 **Compile the program.**
 
-1. Copy code
-2. gcc huffman.c -o huffman
-3. Run the program.
+1. Download huffman.cpp and text1.txt file
+2. Copy and paste both files in bin folder
+3. Compile and Run the program.
 
 **Input Files:**
 The program reads from text1.txt as the input file.
